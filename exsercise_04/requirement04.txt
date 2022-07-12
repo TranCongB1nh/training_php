@@ -1,0 +1,11 @@
+Key: id
+Value: Đường dẫn hình
+Số lượng phần tử trong mảng 20.
+Mảng 2:
+Key : id,
+Value : tên,
+Yêu cầu: 
+Định dạng hình có thể tùy chọn: jpg, png, jpeg,…
+Có thể tự tạo folder images và lưu hình lại thành dưới dạng images_01.jpg,….
+Từ mảng 1 kết hợp với mảng 2 lấy giá trị từ id, sau đó tạo mảng mới có tên array_exercises_3 để cho ra thông tin tương ứng gồm: id, tên, đường dẫn. Sau đó in thông tin mảng đó ra màn hình.
+Sử dụng kiến thức switch case và array để thực hiện yêu cầu trên. Nếu đầu vào đường dẫn hình bị lỗi hoặc không có thì hiển thị hình mặc định (no_images.jpg)

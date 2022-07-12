@@ -1,0 +1,5 @@
+8.	Tìm chuỗi có độ dài lớn nhất, nhỏ nhất và độ dài tương ứng đó từ mảng sau:
+$array = ['programming', 'php', 'basic', 'dev', 'is', 'program is PHP'];
+•	Kết quả mong đợi: 
+Chuỗi lớn nhất là program is PHP, độ dài = 14
+Chuỗi lớn nhất là is, độ dài = 2

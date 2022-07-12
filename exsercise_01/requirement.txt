@@ -1,0 +1,4 @@
+Bài 1: Cho một mảng từ 1 đến 100. Đếm số lượng số nguyên có trong mảng sử dụng kiến thức đặt cờ để thực hiện yêu cầu.
+Yêu cầu:
+Đếm tổng số nguyên và in ra tổng số nguyên đó ra màn hình.
+Nếu số nguyên thì in ra màn hình. Ví dụ: Số 2 là số nguyên.

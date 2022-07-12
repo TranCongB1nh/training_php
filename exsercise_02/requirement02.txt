@@ -1,0 +1,5 @@
+Cho một danh sách chứa các khóa học online:
+●	Input: Array chứa danh sách các khóa học
+●	Key: Tên khóa học
+●	Value: Thời lượng video của khóa học đó.
+Yêu cầu: Tìm thời gian có khóa học có thời lượng dài nhất và thấp nhất.
