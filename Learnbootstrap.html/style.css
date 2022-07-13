@@ -1,0 +1,29 @@
+
+/* TABLE */
+.bg-1{
+    background-color: rgba(211, 31, 31, 0.799);
+    color: white;
+    font-size: large;
+}
+.bg-2{
+    background-color: darkgray;
+}
+.button{
+    padding: 1px;
+    justify-items: right;
+}
+.icon{
+    size: 1px;
+}
+.custom-bg-color-blue {
+    background-color: #0d6efd;
+}
+.column{
+    padding: 1px;
+}
+.content{
+    color: #d63384;
+}
+.bg-column{
+    background-color: blanchedalmond;
+}
