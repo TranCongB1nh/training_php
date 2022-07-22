@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Thực hành Bem</title>
+</head>
+<body>
+    <!-- Block--modifier basic -->
+    <div>
+        <button class="btn btn--success btn--disabled">GO TO NEXT APPROVAL</button>
+        <button class="btn btn--warn">OK</button>
+        <button class="btn btn--error">TRY AGAIN</button>
+    </div>
+    <div>
+        <button class="btn btn--size-l btn--success btn--disabled">GO TO NEXT APPROVAL</button>
+        <button class="btn btn--size-l btn--warn">OK</button>
+        <button class="btn btn--size-l btn--error">TRY AGAIN</button>
+    </div>
+    <div>
+        <button class="btn btn--size-s btn--success btn--disabled">GO TO NEXT APPROVAL</button>
+        <button class="btn btn--size-s btn--warn">OK</button>
+        <button class="btn btn--size-s btn--error">TRY AGAIN</button>
+    </div>
+
+    <!-- Block__element -->
+    <div>
+        <div class="toast toast--success">
+            <div class="toast__icon ">
+                <i class="fa-regular fa-circle-check"></i>
+            </div>
+            <div class="toast__body">
+                <h3 class="toast__title">Success</h3>
+                <p class="toast__msg">trong trader có nhiều SP cho gemini phết, nhưng dù ở MD hay DL thì Gemini vẫn chỉ là đồ bỏ</p>
+            </div>
+            <div class="toast__close">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
