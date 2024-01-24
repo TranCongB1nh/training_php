@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
+
 <body>
 
-<?php
+    <?php
 
-$totalLine = 8;
+$totalLine = 50;
 $timeDoing = 4;
 
 $salary = $timeDoing * 20;
@@ -21,4 +22,5 @@ echo "Mức lương:". $salary . "$";
 ?>
 
 </body>
+
 </html>

@@ -1,26 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
 <body>
+    <?php
 
-<?php
+    $str = "";
+    $result = "";
 
-$str = "hai lan";
-$str1 = "HAI LAN";
-$str2 = "HaI Lan";
-
-echo strtoupper($str) . "<br />";
-echo strtolower($str1) . "<br />";
-
-for($i = 0; $i < strlen($str2); $i++){
-    if($str2[$i] == strtoupper($str2[$i])){
-        echo strtolower($str2[$i]);
+    if (isset($_POST["str"])) {
+        $str = $_POST["str"];
+        if (is_string($str)) {
+            switch ($str) {
+                case strtoupper($str):
+                    $result = strtolower($str);
+                    break;
+                case strtolower($str):
+                    $result = strtoupper($str);
+                    break;
+                default:
+                    for ($i = 0; $i < strlen($str); $i++) {
+                        if ($str[$i] == strtoupper($str[$i])) {
+                            $result .= strtolower($str[$i]);
+                        } else if ($str[$i] == strtolower($str[$i])) {
+                            $result .= strtoupper($str[$i]);
+                        }
+                    }
+                    break;
+            }
+        } else {
+            $result = "Vui lòng nhập một chuỗi";
+        }
     }
-    if($str2[$i] == strtolower($str2[$i])){
-        echo strtoupper($str2[$i]);
-    }
-}
 
-?>
-   
+    ?>
+
+    <div class="content">
+        <h1>Đổi chuỗi</h1>
+        <form action="" method="post" name="main-form">
+            <div class="row">
+                <span>Chuỗi cần đổi</span>
+                <input type="text" name="str" value="<?php echo $str; ?>">
+            </div>
+            <div class="row">
+                <input type="submit" value="Đổi" name="submit">
+            </div>
+        </form>
+        <p><?php echo "Kết quả là: " . $result; ?></p>
+    </div>
+
 </body>
+
 </html>
