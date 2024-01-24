@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bài 1</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 
@@ -51,8 +51,13 @@
             <div class="row">
                 <input type="submit" value="Đổi" name="submit">
             </div>
+            <div class="row">
+                <p>
+                <p><?php echo "Kết quả là: " . $result; ?></p>
+                </p>
+            </div>
         </form>
-        <p><?php echo "Kết quả là: " . $result; ?></p>
+
     </div>
 
 </body>
